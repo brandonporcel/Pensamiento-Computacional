@@ -38,24 +38,20 @@
 
 # 5. Agustina está jugando a las cartas con sus amigos. A ella le gusta tener las cartas de su mano bien ordenadas. Esto significa que cada vez que tiene que agarrar una nueva carta, la quiere agregar a su mano en el lugar indicado para no romper el orden. Si tiene una lista de enteros ordenadas de mayor a menor, hacer una función que según esa lista inserte un nuevo entero, manteniendo el orden. ¿En este caso nos conviene usar append?
 
-# cartas=[1,3,5,6,7,9]
-# def nuevaCarta(carta):
-#     for i in reversed(cartas):
-#         print(carta,i)
-#         if(carta>i):
-#             print(carta,i)
-#             cartas.insert(i,carta)
-#             return
-            
-        # print(i)
-#     i=0
-#     while(i<len(cartas)):
-#         i+=1
-#         if(carta>cartas[i]):
-#             print(i)
-#             cartas.insert(i,carta)
-#             return
-        
+# cartas=[1,4,6,5,8,9]
+# cartas.sort()
+# userNum=int(input('pon un numero canaya'))
+# for carta in cartas:
+#     if(userNum < carta):
+#         position=cartas.index(carta)
+#         # print(cartas.index(carta))
+#         cartas.insert(position,userNum)
+#         break
+#     elif userNum in cartas:
+#         print('el numero ia esta en elkmazo bro')
+#         break
+#     continue
+    
         
 # nuevaCarta(8)
 # print(cartas)
